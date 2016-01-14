@@ -1,6 +1,6 @@
 {
   "name": "compute-const-pi",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pi.",
   "author": {
     "name": "Athan Reines",
@@ -14,11 +14,11 @@
   ],
   "scripts": {
     "test": "if [ \"${TRAVIS}\" ]; then npm run test-ci; else npm run test-local; fi",
-		"test-local": "tape \"./test/*.js\" | tap-spec",
-		"test-ci": "npm run test-local && xvfb-run npm run test-browsers",
-		"test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- \"./test/*.js\"",
-		"test-browsers": "browserify ./test/*.js | testling | tap-spec",
-		"coverage": "istanbul cover --dir ./reports/codecov/coverage --report lcovonly tape -- \"./test/*.js\" && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+    "test-local": "tape \"./test/*.js\" | tap-spec",
+    "test-ci": "npm run test-local && xvfb-run npm run test-browsers",
+    "test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- \"./test/*.js\"",
+    "test-browsers": "browserify ./test/*.js | testling | tap-spec",
+    "coverage": "istanbul cover --dir ./reports/codecov/coverage --report lcovonly tape -- \"./test/*.js\" && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
   },
   "main": "./lib",
   "repository": {
@@ -26,29 +26,29 @@
     "url": "git://github.com/compute-io/const-pi.git"
   },
   "keywords": [
-		"compute.io",
-		"compute-io",
-		"computation",
-		"compute",
-		"mathematics",
-		"math",
-		"constant",
-		"const",
-		"pi"
-	],
+    "compute.io",
+    "compute-io",
+    "computation",
+    "compute",
+    "mathematics",
+    "math",
+    "constant",
+    "const",
+    "pi"
+  ],
   "bugs": {
     "url": "https://github.com/compute-io/const-pi/issues"
   },
   "dependencies": {},
   "devDependencies": {
     "browserify": "12.x.x",
-		"codecov": "1.x.x",
+    "codecov": "1.x.x",
     "istanbul": "^0.4.1",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
     "tap-spec": "4.x.x",
-		"tape": "4.x.x",
-		"testling": "1.x.x"
+    "tape": "4.x.x",
+    "testling": "1.x.x"
   },
   "testling": {
     "files": [
