@@ -23,7 +23,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/const-pi.git"
+    "url": "git://github.com/const-io/pi.git"
   },
   "keywords": [
     "compute.io",
@@ -37,7 +37,7 @@
     "pi"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/const-pi/issues"
+    "url": "https://github.com/const-io/pi/issues"
   },
   "dependencies": {},
   "devDependencies": {

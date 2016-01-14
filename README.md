@@ -8,14 +8,14 @@ Pi
 ## Installation
 
 ``` bash
-$ npm install compute-const-pi
+$ npm install const-pi
 ```
 
 
 ## Usage
 
 ``` javascript
-var pi = require( 'compute-const-pi' );
+var pi = require( 'const-pi' );
 ```
 
 #### pi
@@ -30,7 +30,7 @@ pi === 3.141592653589793;
 ## Examples
 
 ``` javascript
-var pi = require( 'compute-const-pi' );
+var pi = require( 'const-pi' );
 
 console.log( pi );
 ```
@@ -99,23 +99,23 @@ $ make view-browser-tests
 Copyright &copy; 2016. The [Compute.io][compute-io] Authors..
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-pi.svg
-[npm-url]: https://npmjs.org/package/compute-const-pi
+[npm-image]: http://img.shields.io/npm/v/const-pi.svg
+[npm-url]: https://npmjs.org/package/const-pi
 
-[build-image]: http://img.shields.io/travis/compute-io/const-pi/master.svg
-[build-url]: https://travis-ci.org/compute-io/const-pi
+[build-image]: http://img.shields.io/travis/const-io/pi/master.svg
+[build-url]: https://travis-ci.org/const-io/pi
 
-[coverage-image]: https://img.shields.io/codecov/c/github/compute-io/const-pi/master.svg
-[coverage-url]: https://codecov.io/github/compute-io/const-pi?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/const-io/pi/master.svg
+[coverage-url]: https://codecov.io/github/const-io/pi?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/const-pi.svg
-[dependencies-url]: https://david-dm.org/compute-io/const-pi
+[dependencies-image]: http://img.shields.io/david/const-io/pi.svg
+[dependencies-url]: https://david-dm.org/const-io/pi
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/const-pi.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/const-pi
+[dev-dependencies-image]: http://img.shields.io/david/dev/const-io/pi.svg
+[dev-dependencies-url]: https://david-dm.org/dev/const-io/pi
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/const-pi.svg
-[github-issues-url]: https://github.com/compute-io/const-pi/issues
+[github-issues-image]: http://img.shields.io/github/issues/const-io/pi.svg
+[github-issues-url]: https://github.com/const-io/pi/issues
 
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
