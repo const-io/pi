@@ -1,5 +1,5 @@
 {
-  "name": "compute-const-pi",
+  "name": "const-pi",
   "version": "1.0.2",
   "description": "Pi.",
   "author": {
@@ -26,6 +26,8 @@
     "url": "git://github.com/const-io/pi.git"
   },
   "keywords": [
+    "const-io",
+    "const.io",
     "compute.io",
     "compute-io",
     "computation",
